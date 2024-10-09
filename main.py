@@ -123,8 +123,3 @@ else:
     else:
         # Make predictions on test data
         test_predictions = model.predict(test_features)
-
-        # Save predictions to CSV
-        test_df['primary_call_reason'] = label_encoders['primary_call_reason'].inverse_transform(test_predictions)
-        test_df[['call_id', 'primary_call_reason']].to_csv(r'D:\SkyHack\test_adi.csv', index=False)
-        print("Predictions saved to test_adi.csv.")
