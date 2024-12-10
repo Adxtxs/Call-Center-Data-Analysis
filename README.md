@@ -37,5 +37,3 @@ This project analyzes call data to derive insights aimed at improving **operatio
 
 ---
 
-[dataset](https://www.kaggle.com/datasets/mohammadmaaz23/call-centre-trend-analysis)
-
